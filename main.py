@@ -58,7 +58,7 @@ class maze():
                             else:
                                 for s in range(len(solution)-1):
                                     if solution[s][0][0] == cc_coords[0] and solution[s][0][1] == cc_coords[1]:
-                                        solution[s][1][i] == False
+                                        solution[s][1][i] = False
                     solution.pop(-2)
                 #falls nein
                 #Ist kein True Wert in dieser Zelle vorhanden, wird sie von dem Code komplett entfernt und von der Vorherigen Zelle wird der Wert "" ebenfalls auf False geändert
