@@ -67,8 +67,6 @@ class maze():
                     #Entfernt falsche Zelle
                     solution.pop(-2)
                     #Ändert den "" Wert auf False
-                    #NOTE: Hier ist noch ein Bug drinnen
-                    #Der Code ändert hier nähmliche alle vorhandenen "" Werte auf False
                     for i in range(4):
                         if solution[-2][1][i] == "":
                             solution[-2][1][i] = False
