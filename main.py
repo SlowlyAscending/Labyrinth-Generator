@@ -2,7 +2,7 @@ from random import randint as rnt
 from math import ceil as up
 from math import floor as flo
 
-#NOTE Dazu gekommen sind einmal die Klasse Solve (maze.Solve) mit der funktion hand_on_wall(). Dazu sind die funktionen solve (maze.solve()) und gen_waypoints (maze.gen_waypoints())
+#Dazu gekommen sind einmal die Klasse Solve (maze.Solve) mit der funktion hand_on_wall(). Dazu sind die funktionen solve (maze.solve()) und gen_waypoints (maze.gen_waypoints())
 #Zudem wird das Labyrinth nicht mehr gespiegelt gedruckt (z. 390)
 
 class maze():
